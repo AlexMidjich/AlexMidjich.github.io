@@ -53,7 +53,7 @@ function ShowSlides(SlideNumber){
 
 //Script för att hantera onclick funktionen på knapparna för marknadsföring
 function hemnet() {
-	document.getElementsByTagName('img')[1].src = 'img/hemnet.png'
+	document.getElementsByTagName('img')[3].src = 'img/hemnet.png'
 	document.getElementById('rubrik').innerHTML = 'Hemnet' +
 	'<ul><li>Hemnet är den största bostadsportalen på marknaden.</li>' + 
 	'<li>Vi tar fram hela annonsen med bilder och text.</li>' +
@@ -61,7 +61,7 @@ function hemnet() {
 	'<li>En annonskostnad från Hemnet faktureras alltid direkt till dig som ska sälja.</li></ul> '   
 }
 function blocket(){
-	document.getElementsByTagName('img')[1].src = 'img/blocket.png',
+	document.getElementsByTagName('img')[3].src = 'img/blocket.png',
 	document.getElementById('rubrik').innerHTML = 'Blocket' +
 	'<ul><li>Blocket är den näst största bostadssiten.</li>' + 
 	'<li>Alla mäklare syns inte.</li>' +
@@ -70,13 +70,13 @@ function blocket(){
 	'<li>Annonsen ligger uppe tills att bostaden är såld.</li></ul> '
 }
 function aftonbladet(){
-	document.getElementsByTagName('img')[1].src = 'img/aftonbladet.png',
+	document.getElementsByTagName('img')[3].src = 'img/aftonbladet.png',
 	document.getElementById('rubrik').innerHTML = 'Aftonbladet'	+
 	'<ul><li>Din annons syns på aftonbladet.se i tre dagar.</li>' + 
 	'<li>är en del av Blockets "lite före" kampanj.</li></ul> '
 }
 function hittaHem(){
-	document.getElementsByTagName('img')[1].src = 'img/hittahem.png',
+	document.getElementsByTagName('img')[3].src = 'img/hittahem.png',
 	document.getElementById('rubrik').innerHTML = 'Hitta Hem' +
 	'<ul><li>Genom att annonsera på Hitta Hem når vi flest aktivt sökande.</li>' + 
 	'<li>Via Hitta Hems centrala databas med kunder matchas din bostad automatiskt' +
@@ -85,7 +85,7 @@ function hittaHem(){
 	'<li>Annonsen ligger upp tills att bostaden är såld.</li></ul> '
 }
 function facebook(){
-	document.getElementsByTagName('img')[1].src = 'img/facebook.png',
+	document.getElementsByTagName('img')[3].src = 'img/facebook.png',
 	document.getElementById('rubrik').innerHTML = 'Facebook' +
 	'<ul><li>Via Facebook har vi möjlighet att nå en större kundgrupp..</li>' + 
 	'<li>Målgruppsinriktad marknadsföring gör att vi kan välja ut vilken målgrupp' +
